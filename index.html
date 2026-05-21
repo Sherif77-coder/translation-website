@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherif | Arabic Translator & Tutor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+     <nav>
+        <div class="logo">sherif</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">
+            Dark Mode
+        </button>
+     </nav>
+
+    <!-- Header -->
+    <header>
+        <h1>Sherif Olaifa</h1>
+        <p>Arabic ↔ English Translator & Arabic Tutor</p>
+    </header>
+
+    <!-- Hero Section -->
+     <section class="hero" id="home">
+        <h2>Professional Arabic Translation & Arabic Tutoring Services</h2>
+        <p>I help students learn Arabic and help clients with accurate Arabic ↔ English translation.</p>
+        <a href="#contact" class="btn">Contact Me</a>
+     </section>
+
+     <!-- About Section -->
+     <section class="about" id="about">
+        <img src="image/mohamed_hassan-document-7491350_1920.png" alt="Neattrends">
+        <!-- <img src="images/profile.jpg" alt="Sherif" class="profile-img"> -->
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>I am an Arabic ↔ English translator and Arabic tutor passionate about helping students and clients communicate effectively.</p>
+            <p>I specialize in beginner-friendly Arabic teaching and clear, accurate translations.</p>
+        </div>
+     </section>
+
+     <!-- Services Section -->
+      <section class="services" id="services">
+        <h2>My Services</h2>
+
+        <div class="services-container">
+
+            <div class="service-box">
+                <h3>Arabic Tutoring</h3>
+                <p>Personalized Arabic lessons for beginners and intermediate students.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Translation Services</h3>
+                <p>Arabic ↔ English translation for educational and professional content.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Localization</h3>
+                <p>Helping content feel natural and culturally appropriate for Arabic audiences.</p>
+              </div>
+        </div>
+        
+      </section>
+
+      <!-- Testimonials Section -->
+
+      <section class="testimonials">
+        <h2>Testimonials</h2>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial-box">
+                <p>“Very patient and clear Arabic teacher. Learning became easier for me.”</p>
+                <h4>- Student</h4>
+            </div>
+
+            <div class="testimonial-box">
+                <p>“Professional and accurate translation work.”</p>
+                <h4>- Client</h4>
+            </div>
+
+        </div>
+
+      </section>
+
+      <!-- Contact Section -->
+       <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+
+            <form action="https://formsubmit.co/sherifolaifa@gmail.com" method="post">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+
+                    <input 
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your Name"
+                    required>
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+
+                    <input 
+                    type="email" 
+                    id="email"
+                    name="email" 
+                    placeholder="Enter your Email"
+                    required>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+
+                    <textarea 
+                    id="message"
+                    name="message" 
+                    rows="6" 
+                    placeholder="Write your Message"
+                    required></textarea>
+
+                </div>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+            <!-- <p>
+                <i class="fa-solid fa-at"></i> 
+                <a href="mailto">sherifolaifa@gmail.com</a>
+            </p>
+            <p>
+                <i class="fa-brands fa-whatsapp"></i>
+                <a href="wa.me/2349158571929" class="btn">chat on whatsapp</a>
+            </p> -->
+            
+       </section>
+
+       <!-- Footer -->
+       <footer>
+            <p>&copy; 2026 Sherif Olaifa</p>
+            <p>Arabic Translator | Arabic Tutor</p>
+       </footer>
+
+       <script>
+
+            const button = document.getElementById("theme-toggle");
+            button.addEventListener("click", () => {document.body.classList.toggle("dark-mode");
+            });
+            
+       </script>
+</body>
+</html>
